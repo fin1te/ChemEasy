@@ -25,7 +25,7 @@
         tools:ignore="ContentDescription" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/wlcpg_textimg_balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="230dp"
@@ -34,6 +34,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/wlcpg_img_kid"
         app:srcCompat="@drawable/textimg_balance_and_learn"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/wlcpg_textimg_chemeasy"
+        android:layout_width="297dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="75dp"
+        app:layout_constraintBottom_toTopOf="@+id/wlcpg_img_kid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/textimg_chemeasy"
         tools:ignore="ContentDescription" />
 
 
