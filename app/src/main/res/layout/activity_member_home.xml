@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/material_bg1"
+    android:background="@drawable/dark_gradient_bg"
     tools:context=".MemberHome">
 
     <ScrollView
@@ -50,29 +50,35 @@
                 app:srcCompat="@drawable/chem_item2"
                 tools:ignore="ContentDescription" />
 
-            <ImageButton
+            <Button
                 android:layout_width="312dp"
-                android:layout_height="wrap_content"
+                android:layout_height="68dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="40dp"
-                android:background="@null"
-                android:backgroundTint="@color/white"
-                android:backgroundTintMode="src_over"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/peach_long_rect_btn_xml"
+                android:paddingStart="30dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/peach_long_rect_btn"
-                tools:ignore="ContentDescription" />
+                android:text="Learn"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlSymmetry" />
 
-            <ImageButton
+            <Button
                 android:layout_width="312dp"
-                android:layout_height="wrap_content"
+                android:layout_height="68dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="5dp"
-                android:background="@null"
-                android:backgroundTint="@color/white"
-                android:backgroundTintMode="src_over"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/orange_long_rect_btn_xml"
+                android:paddingStart="30dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/orange_long_rect_btn"
-                tools:ignore="ContentDescription" />
+                android:text="Learn"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlSymmetry" />
 
             <ImageButton
                 android:layout_width="312dp"
