@@ -257,7 +257,7 @@
                     android:gravity="left|center"
                     android:paddingStart="30dp"
                     android:scaleType="fitXY"
-                    android:text="About Us"
+                    android:text="About"
                     android:textAlignment="textStart"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
