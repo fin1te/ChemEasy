@@ -19,7 +19,6 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#E63636"
                 android:orientation="vertical"
-
                 tools:ignore="UseCompoundDrawables">
 
                 <TextView

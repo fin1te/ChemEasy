@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChemEasy">
-        <activity android:name=".AboutHome"></activity>
+        <activity android:name=".LearnMenu.Learn_T3_e"></activity>
+        <activity android:name=".LearnMenu.Learn_T3_d" />
+        <activity android:name=".LearnMenu.Learn_T3_c" />
+        <activity android:name=".LearnMenu.Learn_T3_b" />
+        <activity android:name=".LearnMenu.Learn_T3_a" />
+        <activity android:name=".LearnMenu.Learn_T3" />
+        <activity android:name=".LearnMenu.Learn_T2" />
+        <activity android:name=".LearnMenu.Learn_T1" />
+        <activity android:name=".LearnMenu.Learn_Intro" />
+        <activity android:name=".AboutHome" />
         <activity android:name=".PlayHome" />
         <activity android:name=".LearnHome" />
         <activity android:name=".MemberHome" />
