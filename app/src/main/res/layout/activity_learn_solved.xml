@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
-    tools:context=".LearnMenu.Learn_T3_b">
+    tools:context=".LearnMenu.Learn_solved">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -13,6 +13,7 @@
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <TextView
@@ -22,7 +23,7 @@
                 android:layout_marginTop="50dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="Step 2"
+                android:text="Unbalanced chemical equation"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="30dp"
@@ -33,30 +34,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="•   The total number of atoms of each element on the reactant side and the product side must be compared. For this example, the number of atoms on each side can be tabulated as follows."
+                android:text="Al + 02  ---->  Al203"
                 android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:textSize="17dp"
+                android:textAlignment="center"
+                android:textColor="@color/cyan"
+                android:textSize="24dp"
                 tools:ignore="HardcodedText,SpUsage" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:layout_gravity="center"
-                android:src="@drawable/learn_3a"
-                tools:ignore="ContentDescription" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="50dp"
-                android:src="@drawable/learn_3b"
-                tools:ignore="ContentDescription" />
-
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

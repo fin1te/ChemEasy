@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
-    tools:context=".LearnMenu.Learn_T2">
+    tools:context=".LearnMenu.Learn_solved_b">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
                 android:layout_marginTop="50dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="stoichiometric coefficient"
+                android:text="Algebraic Method"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="30dp"
@@ -33,67 +33,94 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/learn_t2_para1"
+                android:text="The variables a, b, and c must be assigned to N2, H2, and NH3  respectively. The chemical equation can be written as:"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="17dp"
-                tools:ignore="SpUsage" />
+                tools:ignore="HardcodedText,SpUsage" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/learn_t2_para2"
+                android:text="aN2  + bH2  ----> cNH3"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="17dp"
-                tools:ignore="SpUsage" />
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="The equation for nitrogen: 2a = c"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:text="@string/learn_t2_para3a"
+                android:padding="20dp"
+                android:text="The equation for hydrogen: 2b = 3c"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Assuming a = 1, the values of b and c can be obtained as follows."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="c = 2a = 2"
                 android:textAllCaps="true"
                 android:textColor="@color/cyan"
                 android:textSize="17dp"
-                tools:ignore="SpUsage" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:text="@string/learn_t2_para3b"
-                android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:textSize="17dp"
-                tools:ignore="SpUsage" />
+                tools:ignore="HardcodedText,SpUsage" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/learn_t2_para4"
+                android:text="2b = 3c = 3*2 = 6; b = 6/2 = 3"
                 android:textAllCaps="true"
-                android:textColor="@color/white"
+                android:textColor="@color/cyan"
                 android:textSize="17dp"
-                tools:ignore="SpUsage" />
+                tools:ignore="HardcodedText,SpUsage" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/learn_t2_para5"
+                android:text="Since a, b, and c have no common multiples, they can be substituted into the equation as follows."
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="17dp"
-                tools:ignore="SpUsage" />
+                tools:ignore="HardcodedText,SpUsage" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="@string/learn_t2_para6"
+                android:text="N2  + 3H2  ----> 2NH3"
                 android:textAllCaps="true"
-                android:layout_marginBottom="50dp"
-                android:textColor="@color/white"
+                android:textColor="@color/cyan"
                 android:textSize="17dp"
-                tools:ignore="SpUsage" />
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="This is the balanced form of the given chemical equation."
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

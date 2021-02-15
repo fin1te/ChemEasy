@@ -4,6 +4,69 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
     tools:context=".LearnMenu.Learn_T3_e">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Step 5"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="•   Once all the individual elements are balanced, the total number of atoms of each element on the reactant and product side are compared once again."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="•   If there are no inequalities, the chemical equation is said to be balanced."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="•   In this example, every element now has an equal number of atoms in the reactant and product side."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="• Therefore, the balanced chemical equation is C3H8 + 5O2 ----> 3CO2 + 4H2O"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_gradient_bg"
+    android:background="@color/testbg"
     tools:context=".LearnHome">
 
     <ScrollView
@@ -19,7 +19,6 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#E63636"
             android:orientation="vertical"
-
             tools:ignore="UseCompoundDrawables">
 
             <TextView
@@ -359,6 +358,7 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_topic3d"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
@@ -368,10 +368,11 @@
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="D"
+                        android:onClick="clickTopic3d"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="70sp"
@@ -407,6 +408,7 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_topic3e"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
@@ -416,10 +418,11 @@
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:onClick="clickTopic3e"
                         android:scaleType="fitXY"
                         android:text="E"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="70sp"
@@ -449,6 +452,7 @@
 
                 <TextView
 
+                    android:id="@+id/lh_tv_topic4"
                     android:layout_width="312dp"
                     android:layout_height="68dp"
                     android:layout_gravity="center"
@@ -457,6 +461,7 @@
                     android:background="@drawable/purple_long_rect_btn_xml"
                     android:clickable="true"
                     android:focusable="true"
+                    android:onClick="clickTopic4"
                     android:gravity="left|center"
                     android:paddingStart="30dp"
                     android:scaleType="fitXY"
@@ -496,6 +501,7 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_topic4a"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
@@ -504,11 +510,12 @@
                         android:background="@drawable/orange_sq_btn"
                         android:clickable="true"
                         android:focusable="true"
+                        android:onClick="clickTopic4a"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="A"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="70sp"
@@ -535,6 +542,7 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_topic4b"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
@@ -544,10 +552,11 @@
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:onClick="clickTopic4b"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="B"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/black"
                         android:textSize="70sp"
@@ -583,19 +592,21 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_topic4c"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="5dp"
+                        android:onClick="clickTopic4c"
                         android:layout_marginBottom="5dp"
                         android:background="@drawable/green_sq_btn"
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="C"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="70sp"
@@ -622,19 +633,21 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_topic4d"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"
+                        android:onClick="clickTopic4d"
                         android:background="@drawable/cyan_sq_btn"
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="D"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="70sp"
@@ -795,6 +808,7 @@
 
                 <TextView
 
+                    android:id="@+id/lh_tv_solved_ex"
                     android:layout_width="312dp"
                     android:layout_height="68dp"
                     android:layout_gravity="center"
@@ -803,6 +817,7 @@
                     android:background="@drawable/pink_long_rect_btn_xml"
                     android:clickable="true"
                     android:focusable="true"
+                    android:onClick="clickSolved"
                     android:gravity="left|center"
                     android:paddingStart="30dp"
                     android:scaleType="fitXY"
@@ -843,19 +858,21 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_solved_ex_a"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="5dp"
+                        android:onClick="clickSolvedA"
                         android:layout_marginBottom="5dp"
                         android:background="@drawable/orange_sq_btn"
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="A"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/white"
                         android:textSize="70sp"
@@ -882,19 +899,21 @@
 
                     <TextView
 
+                        android:id="@+id/lh_tv_solved_ex_b"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
                         android:layout_gravity="center"
                         android:layout_marginTop="5dp"
                         android:layout_marginBottom="5dp"
+                        android:onClick="clickSolvedB"
                         android:background="@drawable/yellow_sq_btn"
                         android:clickable="true"
                         android:focusable="true"
                         android:gravity="center"
+                        android:paddingBottom="50dp"
                         android:scaleType="fitXY"
                         android:text="B"
                         android:textAlignment="gravity"
-                        android:paddingBottom="50dp"
                         android:textAllCaps="true"
                         android:textColor="@color/black"
                         android:textSize="70sp"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_gradient_bg"
+    android:background="@color/gray"
     tools:context=".LearnMenu.Learn_T3">
 
     <ScrollView

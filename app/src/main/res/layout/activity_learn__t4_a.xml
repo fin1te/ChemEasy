@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray"
-
-    tools:context=".LearnMenu.Learn_T3_d">
+    tools:context=".LearnMenu.Learn_T4_a">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,7 +22,7 @@
                 android:layout_marginTop="50dp"
                 android:gravity="center"
                 android:padding="20dp"
-                android:text="Step 4"
+                android:text="Step 1"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="30dp"
@@ -34,34 +33,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="Step 3 is repeated until all the number of atoms of the reacting elements are equal on the reactant and product side. In this example, hydrogen is balanced next. The chemical equation is transformed as follows."
+                android:text="•   The unbalanced chemical equation must be obtained by writing the chemical formulae of the reactants and the products."
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="17dp"
                 tools:ignore="HardcodedText,SpUsage" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:layout_gravity="center"
-                android:src="@drawable/learn_step4_1"
-                tools:ignore="ContentDescription" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="50dp"
-                android:src="@drawable/learn_step4_2"
-                tools:ignore="ContentDescription" />
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="20dp"
-                android:text="Now that the hydrogen atoms are balanced, the next element to be balanced is oxygen. There are 10 oxygen atoms on the product side, implying that the reactant side must also contain 10 oxygen atoms."
+                android:text="•   In this example, the reactants are glucose (C6H12O6) and oxygen (O2) and the products are carbon dioxide (CO2) and water (H2O)"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="17dp"
@@ -70,31 +51,22 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
-                android:text="Each 02  molecule contains 2 oxygen atoms. Therefore, the stoichiometric coefficient that must be assigned to the 02 molecule is 5. The updated chemical equation is tabulated below."
+                android:paddingHorizontal="20dp"
+                android:text="•   The unbalanced chemical equation is"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
                 android:textSize="17dp"
                 tools:ignore="HardcodedText,SpUsage" />
 
-            <ImageView
-                android:layout_width="wrap_content"
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="20dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="50dp"
-                android:src="@drawable/learn_step4_3"
-                tools:ignore="ContentDescription" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingHorizontal="20dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="50dp"
-                android:src="@drawable/learn_step4_4"
-                tools:ignore="ContentDescription" />
-
+                android:text="C6H12O6 + 02 ----> CO2 + H2O"
+                android:textAllCaps="true"
+                android:textColor="@color/cyan"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

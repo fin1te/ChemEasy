@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChemEasy">
-        <activity android:name=".LearnMenu.Learn_T3_e"></activity>
+        <activity android:name=".LearnMenu.Learn_solved_b"></activity>
+        <activity android:name=".LearnMenu.Learn_solved_a" />
+        <activity android:name=".LearnMenu.Learn_solved" />
+        <activity android:name=".LearnMenu.Learn_T4_d" />
+        <activity android:name=".LearnMenu.Learn_T4_b" />
+        <activity android:name=".LearnMenu.Learn_T4_c" />
+        <activity android:name=".LearnMenu.Learn_T4_a" />
+        <activity android:name=".LearnMenu.Learn_T4" />
+        <activity android:name=".LearnMenu.Learn_T3_e" />
         <activity android:name=".LearnMenu.Learn_T3_d" />
         <activity android:name=".LearnMenu.Learn_T3_c" />
         <activity android:name=".LearnMenu.Learn_T3_b" />

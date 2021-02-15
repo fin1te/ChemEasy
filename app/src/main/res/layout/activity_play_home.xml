@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_gradient_bg"
+    android:background="@color/testbg"
     tools:context=".PlayHome">
 
         <ScrollView
@@ -101,6 +101,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -115,6 +116,7 @@
                             android:gravity="center"
                             android:scaleType="fitXY"
                             android:text="TEXT"
+                            android:layout_marginBottom="5dp"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
@@ -138,6 +140,7 @@
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -152,6 +155,7 @@
                             android:gravity="center"
                             android:scaleType="fitXY"
                             android:text="TEXT"
+                            android:layout_marginBottom="5dp"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
@@ -184,6 +188,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -195,6 +200,7 @@
                             android:background="@drawable/green_sq_btn"
                             android:clickable="true"
                             android:focusable="true"
+                            android:layout_marginBottom="5dp"
                             android:gravity="center"
                             android:scaleType="fitXY"
                             android:text="TEXT"
@@ -221,6 +227,7 @@
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -233,6 +240,7 @@
                             android:clickable="true"
                             android:focusable="true"
                             android:gravity="center"
+                            android:layout_marginBottom="5dp"
                             android:scaleType="fitXY"
                             android:text="TEXT"
                             android:textAlignment="gravity"
@@ -267,6 +275,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -275,6 +284,7 @@
                             android:layout_height="150dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
                             android:background="@drawable/blue_sq_btn"
                             android:clickable="true"
                             android:focusable="true"
@@ -304,6 +314,7 @@
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -315,6 +326,7 @@
                             android:background="@drawable/purple_sq_btn"
                             android:clickable="true"
                             android:focusable="true"
+                            android:layout_marginBottom="5dp"
                             android:gravity="center"
                             android:scaleType="fitXY"
                             android:text="TEXT"
@@ -350,6 +362,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="7dp"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -367,6 +380,7 @@
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
                             android:textColor="@color/white"
                             android:textSize="30sp"
                             android:textStyle="bold"
@@ -387,6 +401,7 @@
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:padding="5dp"
                         android:layout_gravity="center">
 
                         <TextView
@@ -399,6 +414,7 @@
                             android:clickable="true"
                             android:focusable="true"
                             android:gravity="center"
+                            android:layout_marginBottom="5dp"
                             android:scaleType="fitXY"
                             android:text="TEXT"
                             android:textAlignment="gravity"
