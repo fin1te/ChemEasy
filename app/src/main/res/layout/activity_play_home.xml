@@ -59,6 +59,7 @@
 
                     <TextView
 
+                        android:id="@+id/ph_tv_intro"
                         android:layout_width="312dp"
                         android:layout_height="68dp"
                         android:layout_gravity="center"
@@ -105,23 +106,24 @@
                         android:layout_gravity="center">
 
                         <TextView
-
+                            android:id="@+id/ph_tv_1"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
                             android:background="@drawable/orange_sq_btn"
+                            android:onClick="clickGame1"
                             android:clickable="true"
                             android:focusable="true"
                             android:gravity="center"
-                            android:scaleType="fitXY"
-                            android:text="TEXT"
-                            android:layout_marginBottom="5dp"
-                            android:textAlignment="gravity"
                             android:paddingBottom="30dp"
+                            android:scaleType="fitXY"
+                            android:text="1"
+                            android:textAlignment="gravity"
                             android:textAllCaps="true"
                             android:textColor="@color/white"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -145,22 +147,24 @@
 
                         <TextView
 
+                            android:id="@+id/ph_tv_2"
                             android:layout_width="150dp"
                             android:layout_height="150dp"
                             android:layout_gravity="center"
                             android:layout_marginTop="5dp"
+                            android:onClick="clickGame2"
+                            android:layout_marginBottom="5dp"
                             android:background="@drawable/yellow_sq_btn"
                             android:clickable="true"
                             android:focusable="true"
                             android:gravity="center"
-                            android:scaleType="fitXY"
-                            android:text="TEXT"
-                            android:layout_marginBottom="5dp"
-                            android:textAlignment="gravity"
                             android:paddingBottom="30dp"
+                            android:scaleType="fitXY"
+                            android:text="2"
+                            android:textAlignment="gravity"
                             android:textAllCaps="true"
                             android:textColor="@color/black"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -203,12 +207,13 @@
                             android:layout_marginBottom="5dp"
                             android:gravity="center"
                             android:scaleType="fitXY"
-                            android:text="TEXT"
+                            android:onClick="clickGame3"
+                            android:text="3"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
                             android:textColor="@color/white"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -242,12 +247,13 @@
                             android:gravity="center"
                             android:layout_marginBottom="5dp"
                             android:scaleType="fitXY"
-                            android:text="TEXT"
+                            android:text="4"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
+                            android:onClick="clickGame4"
                             android:textColor="@color/white"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -290,12 +296,13 @@
                             android:focusable="true"
                             android:gravity="center"
                             android:scaleType="fitXY"
-                            android:text="TEXT"
+                            android:text="5"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
+                            android:onClick="clickGame5"
                             android:textColor="@color/white"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -329,12 +336,13 @@
                             android:layout_marginBottom="5dp"
                             android:gravity="center"
                             android:scaleType="fitXY"
-                            android:text="TEXT"
+                            android:text="6"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
+                            android:onClick="clickGame6"
                             android:textAllCaps="true"
                             android:textColor="@color/white"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 

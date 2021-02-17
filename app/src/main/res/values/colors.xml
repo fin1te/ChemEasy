@@ -11,10 +11,13 @@
     <color name="orange">#FFD6A5</color>
     <color name="yellow">#FDFFB6</color>
     <color name="green">#CAFFBF</color>
+    <color name="dark_green">#14DC6E</color>
     <color name="cyan">#9BF6FF</color>
     <color name="blue">#A0C4FF</color>
+    <color name="dark_blue">#146DFF</color>
     <color name="purple">#BDB2FF</color>
     <color name="gray">#2B2B2B</color>
     <color name="pink">#FFC6FF</color>
     <color name="testbg">#20113C</color>
+    <color name="lightgray">#EAEAEA</color>
 </resources>

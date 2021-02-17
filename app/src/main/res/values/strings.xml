@@ -27,5 +27,15 @@ chemical equation.</string>
     <string name="learn_t3a_3">The unbalanced chemical equation can be written as</string>
     <string name="learn_t3a_4">C3H8 + 02 ---->  C02 + H20</string>
 
+    <string-array name="OneToEight">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
 
 </resources>
