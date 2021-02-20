@@ -9,11 +9,19 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.finite.chemeasy.PlayMenu.Play_1;
+import com.finite.chemeasy.PlayMenu.Play_10;
+import com.finite.chemeasy.PlayMenu.Play_11;
+import com.finite.chemeasy.PlayMenu.Play_12;
+import com.finite.chemeasy.PlayMenu.Play_13;
+import com.finite.chemeasy.PlayMenu.Play_14;
 import com.finite.chemeasy.PlayMenu.Play_2;
 import com.finite.chemeasy.PlayMenu.Play_3;
 import com.finite.chemeasy.PlayMenu.Play_4;
 import com.finite.chemeasy.PlayMenu.Play_5;
 import com.finite.chemeasy.PlayMenu.Play_6;
+import com.finite.chemeasy.PlayMenu.Play_7;
+import com.finite.chemeasy.PlayMenu.Play_8;
+import com.finite.chemeasy.PlayMenu.Play_9;
 
 public class PlayHome extends AppCompatActivity {
 
@@ -53,15 +61,63 @@ public class PlayHome extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void clickGame5(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_5.class);
+        startActivity(intent);
+    }
+
     public void clickGame6(View view) {
         view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
         Intent intent = new Intent(PlayHome.this, Play_6.class);
         startActivity(intent);
     }
 
-    public void clickGame5(View view) {
+    public void clickGame7(View view) {
         view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
-        Intent intent = new Intent(PlayHome.this, Play_5.class);
+        Intent intent = new Intent(PlayHome.this, Play_7.class);
+        startActivity(intent);
+    }
+
+    public void clickGame8(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_8.class);
+        startActivity(intent);
+    }
+
+    public void clickGame9(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_9.class);
+        startActivity(intent);
+    }
+
+    public void clickGame10(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_10.class);
+        startActivity(intent);
+    }
+
+    public void clickGame11(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_11.class);
+        startActivity(intent);
+    }
+
+    public void clickGame12(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_12.class);
+        startActivity(intent);
+    }
+
+    public void clickGame13(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_13.class);
+        startActivity(intent);
+    }
+
+    public void clickGame14(View view) {
+        view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+        Intent intent = new Intent(PlayHome.this, Play_14.class);
         startActivity(intent);
     }
 }

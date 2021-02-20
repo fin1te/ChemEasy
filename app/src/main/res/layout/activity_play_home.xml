@@ -384,13 +384,14 @@
                             android:focusable="true"
                             android:gravity="center"
                             android:scaleType="fitXY"
-                            android:text="TEXT"
+                            android:text="7"
                             android:textAlignment="gravity"
+                            android:onClick="clickGame7"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
                             android:layout_marginBottom="5dp"
                             android:textColor="@color/white"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -424,12 +425,13 @@
                             android:gravity="center"
                             android:layout_marginBottom="5dp"
                             android:scaleType="fitXY"
-                            android:text="TEXT"
+                            android:text="8"
+                            android:onClick="clickGame8"
                             android:textAlignment="gravity"
                             android:paddingBottom="30dp"
                             android:textAllCaps="true"
                             android:textColor="@color/gray"
-                            android:textSize="30sp"
+                            android:textSize="50sp"
                             android:textStyle="bold"
                             tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
@@ -446,6 +448,361 @@
                     </FrameLayout>
 
                 </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/peach_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="9"
+                            android:onClick="clickGame9"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/locked_counter"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/orange_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="10"
+                            android:onClick="clickGame10"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/locked_counter"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/yellow_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="11"
+                            android:onClick="clickGame11"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/locked_counter"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/green_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="12"
+                            android:onClick="clickGame12"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/locked_counter"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/cyan_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="13"
+                            android:onClick="clickGame13"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/locked_counter"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/blue_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="14"
+                            android:onClick="clickGame14"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:background="@drawable/locked_counter"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+<!--                <GridLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:columnCount="2">-->
+
+<!--                    <FrameLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="7dp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:layout_gravity="center">-->
+
+<!--                        <TextView-->
+
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:background="@drawable/pink_sq_btn"-->
+<!--                            android:clickable="true"-->
+<!--                            android:focusable="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:text="TEXT"-->
+<!--                            android:textAlignment="gravity"-->
+<!--                            android:paddingBottom="30dp"-->
+<!--                            android:textAllCaps="true"-->
+<!--                            android:layout_marginBottom="5dp"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="30sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+<!--                        <ImageView-->
+
+<!--                            android:layout_width="84dp"-->
+<!--                            android:layout_height="49dp"-->
+<!--                            android:layout_gravity="bottom|center"-->
+<!--                            android:background="@drawable/locked_counter"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:layout_marginBottom="15dp"-->
+<!--                            app:srcCompat="@drawable/locked_counter"-->
+<!--                            tools:ignore="ContentDescription,RtlHardcoded" />-->
+<!--                    </FrameLayout>-->
+
+<!--                    <FrameLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:layout_gravity="center">-->
+
+<!--                        <TextView-->
+
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:background="@drawable/white_sq_btn"-->
+<!--                            android:clickable="true"-->
+<!--                            android:focusable="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:layout_marginBottom="5dp"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:text="TEXT"-->
+<!--                            android:textAlignment="gravity"-->
+<!--                            android:paddingBottom="30dp"-->
+<!--                            android:textAllCaps="true"-->
+<!--                            android:textColor="@color/gray"-->
+<!--                            android:textSize="30sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+<!--                        <ImageView-->
+
+<!--                            android:layout_width="84dp"-->
+<!--                            android:layout_height="49dp"-->
+<!--                            android:layout_gravity="bottom|center"-->
+<!--                            android:background="@drawable/locked_counter"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:layout_marginBottom="15dp"-->
+<!--                            app:srcCompat="@drawable/locked_counter"-->
+<!--                            tools:ignore="ContentDescription,RtlHardcoded" />-->
+<!--                    </FrameLayout>-->
+
+<!--                </GridLayout>-->
+
 
                 <FrameLayout
                     android:layout_width="wrap_content"
