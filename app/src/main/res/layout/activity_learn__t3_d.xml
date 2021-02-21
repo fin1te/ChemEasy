@@ -123,6 +123,20 @@
                 android:layout_marginBottom="50dp"
                 android:src="@drawable/learn_step4_4"
                 tools:ignore="ContentDescription" />
+            <Button
+                android:id="@+id/t3_d_btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dark_green_long_rect_btn_xml"
+                android:onClick="t3_d_clickDone"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Done"
+                android:textColor="@color/white"
+                tools:ignore="ButtonStyle,HardcodedText"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="475dp" />
 
         </LinearLayout>
     </ScrollView>

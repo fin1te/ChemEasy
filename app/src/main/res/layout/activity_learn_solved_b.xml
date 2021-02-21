@@ -160,6 +160,20 @@
                 android:textColor="@color/blue"
                 android:textSize="17dp"
                 tools:ignore="HardcodedText,SpUsage" />
+            <Button
+                android:id="@+id/ts_b_btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dark_green_long_rect_btn_xml"
+                android:onClick="ts_b_clickDone"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Done"
+                android:textColor="@color/white"
+                tools:ignore="ButtonStyle,HardcodedText"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="475dp" />
 
         </LinearLayout>
     </ScrollView>

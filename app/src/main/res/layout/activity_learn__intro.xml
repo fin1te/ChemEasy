@@ -57,13 +57,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:padding="2dp"
+                android:paddingHorizontal="20dp"
+                android:padding="10dp"
                 android:background="@drawable/gray_round_bg"
                 android:layout_marginHorizontal="20dp"
-                android:layout_marginVertical="10dp"
-                android:paddingVertical="5dp"
+                android:paddingVertical="20dp"
                 android:text="@string/learn_intro_para2_a"
                 android:textAllCaps="true"
                 android:textColor="#9bf6ff"
@@ -74,7 +72,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:padding="2dp"
+                android:padding="10dp"
                 android:background="@drawable/gray_round_bg"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="10dp"
@@ -89,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
-                android:padding="2dp"
+                android:padding="10dp"
                 android:background="@drawable/gray_round_bg"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="10dp"
@@ -109,7 +107,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginVertical="10dp"
                 android:paddingVertical="5dp"
-                android:padding="2dp"
+                android:padding="10dp"
                 android:text="@string/learn_intro_para2_d"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
@@ -139,7 +137,23 @@
                 android:paddingVertical="5dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="50dp"
-                android:src="@drawable/learn_intro_pic1"/>
+                android:src="@drawable/learn_intro_pic1"
+                tools:ignore="ContentDescription"/>
+
+            <Button
+                android:id="@+id/li_btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dark_green_long_rect_btn_xml"
+                android:onClick="li_clickDone"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Done"
+                android:textColor="@color/white"
+                tools:ignore="ButtonStyle,HardcodedText"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="475dp" />
 
         </LinearLayout>
     </ScrollView>
