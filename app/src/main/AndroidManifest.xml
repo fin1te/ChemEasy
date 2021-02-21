@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChemEasy">
-        <activity android:name=".PlayMenu.Play_14"></activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".Login" />
+        <activity android:name=".PlayMenu.Play_14" />
         <activity android:name=".PlayMenu.Play_13" />
         <activity android:name=".PlayMenu.Play_12" />
         <activity android:name=".PlayMenu.Play_11" />

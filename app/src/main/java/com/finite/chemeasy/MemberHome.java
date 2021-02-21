@@ -33,7 +33,6 @@ public class MemberHome extends AppCompatActivity {
         mh_tv_contact_us();
         mh_tv_about_us();
         timer();
-        
     }
 
     
