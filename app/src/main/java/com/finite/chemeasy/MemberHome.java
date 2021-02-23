@@ -3,6 +3,7 @@ package com.finite.chemeasy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
@@ -69,6 +70,9 @@ public class MemberHome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 v.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+                //SharedPreferences sh = getSharedPreferences("shCurrent", MODE_PRIVATE);
+                //String username = sh.getString("username","");
+                //Toast.makeText(MemberHome.this, username, Toast.LENGTH_SHORT).show();
                 Toast.makeText(MemberHome.this,"Clicked on Contact Us", Toast.LENGTH_SHORT).show();
             }
         });
@@ -79,7 +83,9 @@ public class MemberHome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 v.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
-                Toast.makeText(MemberHome.this,"Clicked on Leaderboard", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MemberHome.this, Leaderboard.class);
+                startActivity(intent);
+                //Toast.makeText(MemberHome.this,"Clicked on Leaderboard", Toast.LENGTH_SHORT).show();
             }
         });
     }
