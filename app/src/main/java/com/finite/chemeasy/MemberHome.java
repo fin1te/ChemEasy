@@ -173,4 +173,19 @@ public class MemberHome extends AppCompatActivity {
     },3500);
 
     }
+
+    public void click_logout(View view) {
+        try {
+            SharedPreferences sh = getSharedPreferences("shCurrent", MODE_PRIVATE);
+            SharedPreferences.Editor editor = sh.edit();
+            editor.putString("username","");
+            editor.apply();
+            Intent intent = new Intent(this, Login.class);
+            startActivity(intent);
+            finish();
+        }
+        catch (Exception e) {
+            Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
+        }
+    }
 }

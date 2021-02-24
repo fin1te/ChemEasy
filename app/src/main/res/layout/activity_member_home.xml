@@ -284,8 +284,20 @@
 
             </FrameLayout>
 
-
-
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="90dp"
+                android:background="@drawable/rose_long_rect_btn_xml"
+                android:onClick="click_logout"
+                android:text="Logout"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                tools:ignore="ButtonStyle,HardcodedText" />
 
 
         </LinearLayout>

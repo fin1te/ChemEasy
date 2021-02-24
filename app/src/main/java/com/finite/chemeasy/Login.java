@@ -45,8 +45,8 @@ public class Login extends AppCompatActivity {
                 Cursor c = db.rawQuery("SELECT * FROM users WHERE username = '"+user+"' and password = '"+pass+"'",null);
                 if(c.getCount()>0) {
                     //sharedPreferences.edit().putString("curr_user",user).apply();
-                    SharedPreferences sharedPreferences = getSharedPreferences("shCurrent", MODE_PRIVATE);
-                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    SharedPreferences sh = getSharedPreferences("shCurrent", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sh.edit();
                     editor.putString("username",user);
                     editor.apply();
                     Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show();

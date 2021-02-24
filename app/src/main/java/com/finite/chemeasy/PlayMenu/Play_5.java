@@ -2,6 +2,10 @@ package com.finite.chemeasy.PlayMenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.finite.chemeasy.R;
+
+import android.content.SharedPreferences;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
@@ -45,8 +49,26 @@ public class Play_5 extends AppCompatActivity {
                 e3 = Integer.parseInt(p5_et_3.getText().toString());
                 e4 = Integer.parseInt(p5_et_4.getText().toString());
                 if (e1 == a1 && e2 == a2 && e3 == a3 && e4 == a4) {
-                    Toast.makeText(this, "Correct Answer!", Toast.LENGTH_SHORT).show();
-                    finish();
+                    SharedPreferences sh = getSharedPreferences("shCurrent", MODE_PRIVATE);
+                    String curr_user = sh.getString("username","");
+                    SQLiteDatabase db = openOrCreateDatabase("USERS",MODE_PRIVATE,null);
+                    Cursor c = db.rawQuery("SELECT * FROM users WHERE username = '"+curr_user+"'",null);
+                    int p5 ;
+                    c.moveToFirst();
+                    p5 = c.getInt(c.getColumnIndex("p5"));
+
+                    if(p5 == 1) {
+                        Toast.makeText(this, "Already Completed, Move to Next Level!", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
+                    else if(p5 == 0) {
+                        int score = c.getInt(c.getColumnIndex("score"));
+                        score+=50;
+                        db.execSQL("UPDATE users SET p5 = 1,score="+score+" WHERE username = '"+curr_user+"'");
+                        Toast.makeText(this, "Great! +50 Points!!", Toast.LENGTH_SHORT).show();
+                        finish();
+                    }
+                    c.close();
                 }
                 else
                     Toast.makeText(this, "Wrong Answer, Try Again", Toast.LENGTH_SHORT).show();

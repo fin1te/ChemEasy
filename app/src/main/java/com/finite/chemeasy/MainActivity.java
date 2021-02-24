@@ -3,6 +3,7 @@ package com.finite.chemeasy;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -72,9 +73,22 @@ public class MainActivity extends AppCompatActivity {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, Login.class);
-                startActivity(intent);
-                finish();
+                try {
+                    SharedPreferences sh = getSharedPreferences("shCurrent", MODE_PRIVATE);
+                    String curr_user = sh.getString("username","");
+                    if (!curr_user.equals("")) {
+                        Intent intent = new Intent(MainActivity.this, MemberHome.class);
+                        startActivity(intent);
+                        finish();
+                    } else if (curr_user.equals("") || curr_user == null) {
+                        Intent intent = new Intent(MainActivity.this, Login.class);
+                        startActivity(intent);
+                        finish();
+                    }
+                }
+                catch(Exception e) {
+                    Toast.makeText(MainActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
+                }
             }
         },3000);
     }
