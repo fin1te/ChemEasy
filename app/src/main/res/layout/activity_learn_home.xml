@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testbg"
+    tools:context=".LearnHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="108dp"
+
+        tools:layout_editor_absoluteY="26dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E63636"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="92dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="91dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Learn"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                app:srcCompat="@drawable/chem_item3"
+                tools:ignore="ContentDescription" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/lh_tv_intro"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:onClick="clickIntro"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/white_long_rect_btn_xml"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="left|center"
+                    android:paddingStart="30dp"
+                    android:scaleType="fitXY"
+                    android:text="introduction"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+
+                    android:id="@+id/lh_tv_intro_st"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginTop="7sp"
+                    android:background="@drawable/blank_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/lh_tv_topic1"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/pink_long_rect_btn_xml"
+                    android:onClick="clickTopic1"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="left|center"
+                    android:paddingStart="30dp"
+                    android:scaleType="fitXY"
+                    android:text="topic 1"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+
+                    android:id="@+id/lh_tv_topic1_st"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginTop="7sp"
+                    android:background="@drawable/blank_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/lh_tv_topic2"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5sp"
+                    android:onClick="clickTopic2"
+                    android:background="@drawable/purple_long_rect_btn_xml"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="left|center"
+                    android:paddingStart="30dp"
+                    android:scaleType="fitXY"
+                    android:text="topic 2"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+
+                    android:id="@+id/lh_tv_topic2_st"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginTop="7sp"
+                    android:background="@drawable/blank_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/lh_tv_topic3"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5sp"
+                    android:onClick="clickTopic3"
+                    android:background="@drawable/peach_long_rect_btn_xml"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="left|center"
+                    android:paddingStart="30dp"
+                    android:scaleType="fitXY"
+                    android:text="topic 3"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+
+                    android:id="@+id/lh_tv_topic3_st"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginTop="7sp"
+                    android:background="@drawable/blank_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </FrameLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/lh_tv_topic3a"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:onClick="clickTopic3a"
+                        android:background="@drawable/orange_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        android:text="A"
+                        android:textAlignment="gravity"
+                        android:paddingBottom="50dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic3a_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/lh_tv_topic3b"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:onClick="clickTopic3b"
+                        android:background="@drawable/yellow_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        android:text="B"
+                        android:textAlignment="gravity"
+                        android:paddingBottom="50dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic3b_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/lh_tv_topic3c"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/green_sq_btn"
+                        android:onClick="clickTopic3c"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        android:text="C"
+                        android:textAlignment="gravity"
+                        android:paddingBottom="50dp"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic3c_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_topic3d"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/cyan_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="D"
+                        android:onClick="clickTopic3d"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic3d_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    tools:ignore="UselessParent">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_topic3e"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/blue_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:onClick="clickTopic3e"
+                        android:scaleType="fitXY"
+                        android:text="E"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic3e_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+
+            </GridLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:id="@+id/lh_tv_topic4"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/purple_long_rect_btn_xml"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="clickTopic4"
+                    android:gravity="left|center"
+                    android:paddingStart="30dp"
+                    android:scaleType="fitXY"
+                    android:text="topic 4"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+
+                    android:id="@+id/lh_tv_topic4_st"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginTop="7sp"
+                    android:background="@drawable/blank_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </FrameLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_topic4a"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/orange_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="clickTopic4a"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="A"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic4a_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_topic4b"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/yellow_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:onClick="clickTopic4b"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="B"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic4b_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_topic4c"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:onClick="clickTopic4c"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/green_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="C"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic4c_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_topic4d"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:onClick="clickTopic4d"
+                        android:background="@drawable/cyan_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="D"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_topic4d_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+            </GridLayout>
+
+            <!--            <GridLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:columnCount="2">-->
+
+            <!--                <FrameLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+
+            <!--                    android:padding="5dp"-->
+            <!--                    android:layout_gravity="center">-->
+
+            <!--                    <TextView-->
+
+            <!--                        android:layout_width="150dp"-->
+            <!--                        android:layout_height="150dp"-->
+            <!--                        android:layout_gravity="center"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:layout_marginBottom="5dp"-->
+            <!--                        android:background="@drawable/blue_sq_btn"-->
+            <!--                        android:clickable="true"-->
+            <!--                        android:focusable="true"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:scaleType="fitXY"-->
+            <!--                        android:text="5"-->
+            <!--                        android:textAlignment="gravity"-->
+            <!--                        android:paddingBottom="50dp"-->
+            <!--                        android:textAllCaps="true"-->
+            <!--                        android:textColor="@color/white"-->
+            <!--                        android:textSize="70sp"-->
+            <!--                        android:textStyle="bold"-->
+            <!--                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+            <!--                    <ImageView-->
+
+            <!--                        android:layout_width="84dp"-->
+            <!--                        android:layout_height="49dp"-->
+            <!--                        android:layout_gravity="bottom|center"-->
+            <!--                        android:background="@drawable/blank_counter"-->
+            <!--                        android:scaleType="fitXY"-->
+            <!--                        android:layout_marginBottom="15dp"-->
+            <!--                        app:srcCompat="@drawable/locked_counter"-->
+            <!--                        tools:ignore="ContentDescription,RtlHardcoded" />-->
+            <!--                </FrameLayout>-->
+
+
+            <!--            </GridLayout>-->
+
+            <!--            <GridLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:columnCount="2">-->
+
+            <!--                <FrameLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_marginStart="7dp"-->
+            <!--                    android:layout_gravity="center">-->
+
+            <!--                    <TextView-->
+
+            <!--                        android:layout_width="150dp"-->
+            <!--                        android:layout_height="150dp"-->
+            <!--                        android:layout_gravity="center"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:background="@drawable/pink_sq_btn"-->
+            <!--                        android:clickable="true"-->
+            <!--                        android:focusable="true"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:scaleType="fitXY"-->
+            <!--                        android:text="TEXT"-->
+            <!--                        android:textAlignment="gravity"-->
+            <!--                        android:paddingBottom="30dp"-->
+            <!--                        android:textAllCaps="true"-->
+            <!--                        android:textColor="@color/white"-->
+            <!--                        android:textSize="30sp"-->
+            <!--                        android:textStyle="bold"-->
+            <!--                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+            <!--                    <ImageView-->
+
+            <!--                        android:layout_width="84dp"-->
+            <!--                        android:layout_height="49dp"-->
+            <!--                        android:layout_gravity="bottom|center"-->
+            <!--                        android:background="@drawable/blank_counter"-->
+            <!--                        android:scaleType="fitXY"-->
+            <!--                        android:layout_marginBottom="15dp"-->
+            <!--                        app:srcCompat="@drawable/locked_counter"-->
+            <!--                        tools:ignore="ContentDescription,RtlHardcoded" />-->
+            <!--                </FrameLayout>-->
+
+            <!--                <FrameLayout-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="center">-->
+
+            <!--                    <TextView-->
+
+            <!--                        android:layout_width="150dp"-->
+            <!--                        android:layout_height="150dp"-->
+            <!--                        android:layout_gravity="center"-->
+            <!--                        android:layout_marginTop="5dp"-->
+            <!--                        android:background="@drawable/white_sq_btn"-->
+            <!--                        android:clickable="true"-->
+            <!--                        android:focusable="true"-->
+            <!--                        android:gravity="center"-->
+            <!--                        android:scaleType="fitXY"-->
+            <!--                        android:text="TEXT"-->
+            <!--                        android:textAlignment="gravity"-->
+            <!--                        android:paddingBottom="30dp"-->
+            <!--                        android:textAllCaps="true"-->
+            <!--                        android:textColor="@color/gray"-->
+            <!--                        android:textSize="30sp"-->
+            <!--                        android:textStyle="bold"-->
+            <!--                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+            <!--                    <ImageView-->
+
+            <!--                        android:layout_width="84dp"-->
+            <!--                        android:layout_height="49dp"-->
+            <!--                        android:layout_gravity="bottom|center"-->
+            <!--                        android:background="@drawable/blank_counter"-->
+            <!--                        android:scaleType="fitXY"-->
+            <!--                        android:layout_marginBottom="15dp"-->
+            <!--                        app:srcCompat="@drawable/locked_counter"-->
+            <!--                        tools:ignore="ContentDescription,RtlHardcoded" />-->
+            <!--                </FrameLayout>-->
+
+            <!--            </GridLayout>-->
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+
+                    android:id="@+id/lh_tv_solved_ex"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5sp"
+                    android:background="@drawable/pink_long_rect_btn_xml"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="clickSolved"
+                    android:gravity="left|center"
+                    android:paddingStart="30dp"
+                    android:scaleType="fitXY"
+                    android:text="Solved Ex"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                <ImageView
+
+                    android:id="@+id/lh_tv_solved_ex_st"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="right|center"
+                    android:layout_marginTop="7sp"
+                    android:background="@drawable/blank_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+            </FrameLayout>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:columnCount="2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_solved_ex_a"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:onClick="clickSolvedA"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/orange_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="A"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_solved_ex_a_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/lh_tv_solved_ex_b"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:onClick="clickSolvedB"
+                        android:background="@drawable/yellow_sq_btn"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:paddingBottom="50dp"
+                        android:scaleType="fitXY"
+                        android:text="B"
+                        android:textAlignment="gravity"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="70sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:id="@+id/lh_tv_solved_ex_b_st"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:background="@drawable/blank_counter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+            </GridLayout>
+
+            <!--            <FrameLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center">-->
+
+            <!--                <TextView-->
+
+            <!--                    android:layout_width="312dp"-->
+            <!--                    android:layout_height="68dp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginTop="10dp"-->
+            <!--                    android:layout_marginBottom="5sp"-->
+            <!--                    android:background="@drawable/peach_long_rect_btn_xml"-->
+            <!--                    android:clickable="true"-->
+            <!--                    android:focusable="true"-->
+            <!--                    android:gravity="left|center"-->
+            <!--                    android:paddingStart="30dp"-->
+            <!--                    android:scaleType="fitXY"-->
+            <!--                    android:text="TEXT"-->
+            <!--                    android:textAlignment="textStart"-->
+            <!--                    android:textAllCaps="true"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="25sp"-->
+            <!--                    android:textStyle="bold"-->
+            <!--                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+            <!--                <ImageView-->
+
+            <!--                    android:layout_width="84dp"-->
+            <!--                    android:layout_height="49dp"-->
+            <!--                    android:layout_gravity="right|center"-->
+            <!--                    android:layout_marginTop="7sp"-->
+            <!--                    android:background="@drawable/blank_counter"-->
+            <!--                    android:gravity="center|right"-->
+            <!--                    android:scaleType="fitXY"-->
+            <!--                    app:srcCompat="@drawable/locked_counter"-->
+            <!--                    tools:ignore="ContentDescription,RtlHardcoded" />-->
+
+            <!--            </FrameLayout>-->
+
+            <!--            <FrameLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center">-->
+
+            <!--                <TextView-->
+
+            <!--                    android:layout_width="312dp"-->
+            <!--                    android:layout_height="68dp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginTop="10dp"-->
+            <!--                    android:layout_marginBottom="5sp"-->
+            <!--                    android:background="@drawable/orange_long_rect_btn_xml"-->
+            <!--                    android:paddingStart="30dp"-->
+            <!--                    android:scaleType="fitXY"-->
+            <!--                    android:clickable="true"-->
+            <!--                    android:focusable="true"-->
+            <!--                    android:text="TEXT"-->
+            <!--                    android:gravity="left|center"-->
+            <!--                    android:textAllCaps="true"-->
+            <!--                    android:textAlignment="textStart"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    android:textSize="28sp"-->
+            <!--                    android:textStyle="bold"-->
+            <!--                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+            <!--                <ImageView-->
+
+            <!--                    android:layout_width="84dp"-->
+            <!--                    android:layout_height="49dp"-->
+            <!--                    android:layout_gravity="right|center"-->
+            <!--                    android:layout_marginTop="7sp"-->
+            <!--                    android:background="@drawable/blank_counter"-->
+            <!--                    android:gravity="center|right"-->
+            <!--                    android:scaleType="fitXY"-->
+            <!--                    app:srcCompat="@drawable/locked_counter"-->
+            <!--                    tools:ignore="ContentDescription,RtlHardcoded" />-->
+
+            <!--            </FrameLayout>-->
+
+            <!--            <FrameLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginBottom="50dp"-->
+            <!--                android:layout_gravity="center">-->
+
+            <!--                <TextView-->
+
+            <!--                    android:layout_width="312dp"-->
+            <!--                    android:layout_height="68dp"-->
+            <!--                    android:layout_gravity="center"-->
+            <!--                    android:layout_marginTop="10dp"-->
+            <!--                    android:layout_marginBottom="5sp"-->
+            <!--                    android:background="@drawable/yellow_long_rect_btn_xml"-->
+            <!--                    android:clickable="true"-->
+            <!--                    android:focusable="true"-->
+            <!--                    android:gravity="left|center"-->
+            <!--                    android:paddingStart="30dp"-->
+            <!--                    android:scaleType="fitXY"-->
+            <!--                    android:text="TEXT"-->
+            <!--                    android:textAlignment="textStart"-->
+            <!--                    android:textAllCaps="true"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textSize="30sp"-->
+            <!--                    android:textStyle="bold"-->
+            <!--                    tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+            <!--                <ImageView-->
+
+            <!--                    android:layout_width="84dp"-->
+            <!--                    android:layout_height="49dp"-->
+            <!--                    android:layout_gravity="right|center"-->
+            <!--                    android:layout_marginTop="7sp"-->
+            <!--                    android:background="@drawable/blank_counter"-->
+            <!--                    android:gravity="center|right"-->
+            <!--                    android:scaleType="fitXY"-->
+            <!--                    app:srcCompat="@drawable/locked_counter"-->
+            <!--                    tools:ignore="ContentDescription,RtlHardcoded" />-->
+            <!--            </FrameLayout>-->
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

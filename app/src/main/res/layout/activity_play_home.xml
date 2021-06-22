@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/testbg"
+    tools:context=".PlayHome">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="108dp"
+
+            tools:layout_editor_absoluteY="26dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E63636"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="91dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Play"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView"
+                    app:srcCompat="@drawable/chem_item4"
+                    tools:ignore="ContentDescription" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+
+                        android:id="@+id/ph_tv_intro"
+                        android:layout_width="312dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5sp"
+                        android:background="@drawable/peach_long_rect_btn_xml"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="left|center"
+                        android:paddingStart="30dp"
+                        android:scaleType="fitXY"
+                        android:text="Tutorial"
+                        android:textAlignment="textStart"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="27sp"
+                        android:textStyle="bold"
+                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    <ImageView
+
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_gravity="right|center"
+                        android:layout_marginTop="7sp"
+                        android:background="@drawable/locked_counter"
+                        android:gravity="center|right"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level : Easy"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:background="@drawable/white_round_bg"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:id="@+id/ph_tv_1"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/orange_sq_btn"
+                            android:onClick="clickGame1"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:paddingBottom="30dp"
+                            android:scaleType="fitXY"
+                            android:text="1"
+                            android:textAlignment="gravity"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p1"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:id="@+id/ph_tv_2"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:onClick="clickGame2"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/yellow_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:paddingBottom="30dp"
+                            android:scaleType="fitXY"
+                            android:text="2"
+                            android:textAlignment="gravity"
+                            android:textAllCaps="true"
+                            android:textColor="@color/black"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p2"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/green_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:onClick="clickGame3"
+                            android:text="3"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p3"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/cyan_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="4"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:onClick="clickGame4"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p4"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level : Medium"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:background="@drawable/white_round_bg"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/blue_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="5"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:onClick="clickGame5"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p5"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/purple_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_marginBottom="5dp"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="6"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:onClick="clickGame6"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p6"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/pink_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="7"
+                            android:textAlignment="gravity"
+                            android:onClick="clickGame7"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p7"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/white_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="8"
+                            android:onClick="clickGame8"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/gray"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p8"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/peach_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="9"
+                            android:onClick="clickGame9"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p9"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/orange_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="10"
+                            android:onClick="clickGame10"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p10"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Level : Hard"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="50dp"
+                    android:textColor="@color/black"
+                    android:padding="10dp"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:background="@drawable/white_round_bg"
+                    tools:ignore="HardcodedText,SpUsage" />
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/yellow_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="11"
+                            android:onClick="clickGame11"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/black"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p11"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/green_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="12"
+                            android:onClick="clickGame12"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/ph_iv_p12"
+                        android:layout_width="84dp"
+                        android:layout_height="49dp"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="15dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/locked_counter"
+                        tools:ignore="ContentDescription,RtlHardcoded" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="80dp"
+                    android:columnCount="2">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/cyan_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:text="13"
+                            android:onClick="clickGame13"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p13"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_gravity="center">
+
+                        <TextView
+
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/blue_sq_btn"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:scaleType="fitXY"
+                            android:text="14"
+                            android:onClick="clickGame14"
+                            android:textAlignment="gravity"
+                            android:paddingBottom="30dp"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="50sp"
+                            android:textStyle="bold"
+                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+                        <ImageView
+                            android:id="@+id/ph_iv_p14"
+                            android:layout_width="84dp"
+                            android:layout_height="49dp"
+                            android:layout_gravity="bottom|center"
+                            android:scaleType="fitXY"
+                            android:layout_marginBottom="15dp"
+                            app:srcCompat="@drawable/locked_counter"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+                    </FrameLayout>
+
+                </GridLayout>
+
+<!--                <GridLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:columnCount="2">-->
+
+<!--                    <FrameLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginStart="7dp"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:layout_gravity="center">-->
+
+<!--                        <TextView-->
+
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:background="@drawable/pink_sq_btn"-->
+<!--                            android:clickable="true"-->
+<!--                            android:focusable="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:text="TEXT"-->
+<!--                            android:textAlignment="gravity"-->
+<!--                            android:paddingBottom="30dp"-->
+<!--                            android:textAllCaps="true"-->
+<!--                            android:layout_marginBottom="5dp"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            android:textSize="30sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+<!--                        <ImageView-->
+
+<!--                            android:layout_width="84dp"-->
+<!--                            android:layout_height="49dp"-->
+<!--                            android:layout_gravity="bottom|center"-->
+<!--                            android:background="@drawable/locked_counter"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:layout_marginBottom="15dp"-->
+<!--                            app:srcCompat="@drawable/locked_counter"-->
+<!--                            tools:ignore="ContentDescription,RtlHardcoded" />-->
+<!--                    </FrameLayout>-->
+
+<!--                    <FrameLayout-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:layout_gravity="center">-->
+
+<!--                        <TextView-->
+
+<!--                            android:layout_width="150dp"-->
+<!--                            android:layout_height="150dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="5dp"-->
+<!--                            android:background="@drawable/white_sq_btn"-->
+<!--                            android:clickable="true"-->
+<!--                            android:focusable="true"-->
+<!--                            android:gravity="center"-->
+<!--                            android:layout_marginBottom="5dp"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:text="TEXT"-->
+<!--                            android:textAlignment="gravity"-->
+<!--                            android:paddingBottom="30dp"-->
+<!--                            android:textAllCaps="true"-->
+<!--                            android:textColor="@color/gray"-->
+<!--                            android:textSize="30sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+<!--                        <ImageView-->
+
+<!--                            android:layout_width="84dp"-->
+<!--                            android:layout_height="49dp"-->
+<!--                            android:layout_gravity="bottom|center"-->
+<!--                            android:background="@drawable/locked_counter"-->
+<!--                            android:scaleType="fitXY"-->
+<!--                            android:layout_marginBottom="15dp"-->
+<!--                            app:srcCompat="@drawable/locked_counter"-->
+<!--                            tools:ignore="ContentDescription,RtlHardcoded" />-->
+<!--                    </FrameLayout>-->
+
+<!--                </GridLayout>-->
+
+
+<!--                <FrameLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center">-->
+
+<!--                    <TextView-->
+
+<!--                        android:layout_width="312dp"-->
+<!--                        android:layout_height="68dp"-->
+<!--                        android:layout_gravity="center"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginBottom="5sp"-->
+<!--                        android:background="@drawable/peach_long_rect_btn_xml"-->
+<!--                        android:clickable="true"-->
+<!--                        android:focusable="true"-->
+<!--                        android:gravity="left|center"-->
+<!--                        android:paddingStart="30dp"-->
+<!--                        android:scaleType="fitXY"-->
+<!--                        android:text="TEXT"-->
+<!--                        android:textAlignment="textStart"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="25sp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />-->
+
+<!--                    <ImageView-->
+
+<!--                        android:layout_width="84dp"-->
+<!--                        android:layout_height="49dp"-->
+<!--                        android:layout_gravity="right|center"-->
+<!--                        android:layout_marginTop="7sp"-->
+<!--                        android:background="@drawable/locked_counter"-->
+<!--                        android:gravity="center|right"-->
+<!--                        android:scaleType="fitXY"-->
+<!--                        app:srcCompat="@drawable/locked_counter"-->
+<!--                        tools:ignore="ContentDescription,RtlHardcoded" />-->
+
+<!--                </FrameLayout>-->
+
+            </LinearLayout>
+        </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dark_gradient_bg"
+    android:background="@color/testbg"
     tools:context=".MemberHome">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="108dp"
+
         tools:layout_editor_absoluteY="26dp">
 
         <LinearLayout
@@ -18,10 +19,11 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#E63636"
             android:orientation="vertical"
+
             tools:ignore="UseCompoundDrawables">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/mh_tv_welcome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="92dp"
@@ -29,6 +31,7 @@
                 android:layout_marginEnd="91dp"
                 android:fontFamily="sans-serif-black"
                 android:text="Welcome!"
+                android:layout_gravity="center"
                 android:textColor="@color/white"
                 android:textSize="40sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -38,12 +41,13 @@
                 tools:ignore="HardcodedText" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/mh_iv_chem_item2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="83dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="82dp"
+                android:layout_gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -51,8 +55,9 @@
                 tools:ignore="ContentDescription" />
 
             <FrameLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@+id/mh_l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
                 <TextView
@@ -76,14 +81,15 @@
                     android:textStyle="bold"
                     tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
-                <Button
-                    android:id="@+id/imageView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:id="@+id/mh_sb_learn"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
                     android:layout_gravity="right|center"
-                    android:layout_marginRight="25sp"
-                    android:layout_marginTop="9sp"
+                    android:layout_marginTop="7sp"
                     android:background="@drawable/locked_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
                     app:srcCompat="@drawable/locked_counter"
                     tools:ignore="ContentDescription,RtlHardcoded" />
 
@@ -100,8 +106,9 @@
             </FrameLayout>
 
             <FrameLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@+id/mh_l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
                 <TextView
@@ -125,14 +132,16 @@
                     android:textStyle="bold"
                     tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:id="@+id/mh_sb_play"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
                     android:layout_gravity="right|center"
-                    android:layout_marginRight="25sp"
-                    android:layout_marginTop="9sp"
+                    android:layout_marginTop="7sp"
                     android:background="@drawable/locked_counter"
-                    android:src="@drawable/locked_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
                     tools:ignore="ContentDescription,RtlHardcoded" />
 
             </FrameLayout>
@@ -153,8 +162,9 @@
 <!--                tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlSymmetry" />-->
 
             <FrameLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@+id/mh_l3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
                 <TextView
@@ -178,21 +188,24 @@
                     android:textStyle="bold"
                     tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:id="@+id/mh_sb_leaderboard"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
                     android:layout_gravity="right|center"
-                    android:layout_marginRight="25sp"
-                    android:layout_marginTop="9sp"
+                    android:layout_marginTop="7sp"
                     android:background="@drawable/locked_counter"
-                    android:src="@drawable/locked_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
                     tools:ignore="ContentDescription,RtlHardcoded" />
 
             </FrameLayout>
 
             <FrameLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@+id/mh_l4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
                 <TextView
@@ -216,21 +229,24 @@
                     android:textStyle="bold"
                     tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:id="@+id/mh_sb_contact_us"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
                     android:layout_gravity="right|center"
-                    android:layout_marginRight="25sp"
-                    android:layout_marginTop="9sp"
+                    android:layout_marginTop="7sp"
                     android:background="@drawable/locked_counter"
-                    android:src="@drawable/locked_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
                     tools:ignore="ContentDescription,RtlHardcoded" />
 
             </FrameLayout>
 
             <FrameLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:id="@+id/mh_l5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center">
 
                 <TextView
@@ -246,7 +262,7 @@
                     android:gravity="left|center"
                     android:paddingStart="30dp"
                     android:scaleType="fitXY"
-                    android:text="About Us"
+                    android:text="About"
                     android:textAlignment="textStart"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
@@ -254,20 +270,34 @@
                     android:textStyle="bold"
                     tools:ignore="ContentDescription,HardcodedText,RtlCompat,RtlHardcoded,RtlSymmetry" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:id="@+id/mh_sb_about_us"
+                    android:layout_width="84dp"
+                    android:layout_height="49dp"
                     android:layout_gravity="right|center"
-                    android:layout_marginRight="25sp"
-                    android:layout_marginTop="9sp"
+                    android:layout_marginTop="7sp"
                     android:background="@drawable/locked_counter"
-                    android:src="@drawable/locked_counter"
+                    android:gravity="center|right"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/locked_counter"
                     tools:ignore="ContentDescription,RtlHardcoded" />
 
             </FrameLayout>
 
-
-
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="90dp"
+                android:background="@drawable/rose_long_rect_btn_xml"
+                android:onClick="click_logout"
+                android:text="Logout"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                tools:ignore="ButtonStyle,HardcodedText" />
 
 
         </LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LearnMenu.Learn_T4_b">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Step 2"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:text="Now, algebraic variables are assigned to each species (as stoichiometric coefficients) in the unbalanced chemical equation. In this example, the equation can be written as follows. "
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:text="aC6H1206  +  b02  ---->  cC02  + dH20"
+                android:textAllCaps="true"
+                android:textColor="@color/cyan"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:text="Now, a set of equations must be formulated (between the reactant and product side) in order to  balance each element in the reaction. In this example, the following equations can be formed."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="The equation for Carbon"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/cyan"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:text="On the reactant side, (a) molecules of C6H12O6  will contain (6a) carbon atoms. On the product side, (c) molecules of CO2  will contain (c) carbon atoms. In this equation, the only species containing carbon are C6H12O6  and CO2."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="10dp"
+                android:text="Therefore, the following equation can be formulated for carbon:      6a = c"
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="The equation for Hydrogen"
+                android:textAllCaps="true"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:textColor="@color/cyan"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:text="The species that contain hydrogen in this equation are C6H12O6  and H2. (a) molecules of C6H12O6  contains (12a) hydrogen atoms whereas (d) H2O molecules will contain (2d) hydrogen atoms. Therefore, the equation for hydrogen becomes 12a = 2d."
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:paddingTop="10dp"
+                android:text="Simplifying this equation (by dividing both sides by 2), the equation becomes: 6a = d"
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="The equation for Oxygen"
+                android:textAllCaps="true"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:textColor="@color/cyan"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:text="Every species in this chemical equation contains oxygen. Therefore, the following relations can be made to obtain the equation for oxygen:
+For (a) molecules of C6H12O6, there exist (6a) oxygen atoms. (b) molecules of O2  contain a total of (2b) oxygens. (c) molecules of CO2  contain (2c) number of oxygen atoms. (d) molecules of H2O hold (d) oxygen atoms."
+                android:textAllCaps="true"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="10dp"
+                android:text="Therefore, the equation for oxygen can be written as: 6a + 2b = 2c + d"
+                android:background="@drawable/gray_round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="17dp"
+                android:layout_marginBottom="50dp"
+                tools:ignore="HardcodedText,SpUsage" />
+            <Button
+                android:id="@+id/t4_b_btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dark_green_long_rect_btn_xml"
+                android:onClick="t4_b_clickDone"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:text="Done"
+                android:textColor="@color/white"
+                tools:ignore="ButtonStyle,HardcodedText"
+                tools:layout_editor_absoluteX="43dp"
+                tools:layout_editor_absoluteY="475dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Register">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/user_male"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/et_reg_name"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/gray_round_bg"
+        android:hint="Name"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/et_reg_age"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/gray_round_bg"
+        android:hint="Age"
+        android:inputType="number"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_name"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/et_reg_username"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/gray_round_bg"
+        android:hint="username"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_age"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/et_reg_password"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/gray_round_bg"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_username"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rose_long_rect_btn_xml"
+        android:onClick="click_register"
+        android:text="Register"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_reg_password"
+        tools:ignore="ButtonStyle,HardcodedText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

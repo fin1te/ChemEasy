@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">ChemEasy</string>
+    <string name="learn_intro_para1">A chemical equation  is an expression of the net composition change associated with a chemical reaction. It shows how a certain amount of reactants yields a certain amount of products. Both of these amounts are measured in moles.
+for any chemical equation in a closed system, the mass of the reactants must equal the mass of the products. Therefore, there must be the same number of atoms of each element on each side of a
+chemical equation.</string>
+    <string name="learn_intro_para2_a">•   Every chemical equation adheres to the law of conservation of mass, which states that matter cannot be created or destroyed.</string>
+    <string name="learn_intro_para2_b">    Therefore, there must be the same number of atoms of each element on each side of a chemical equation.</string>
+    <string name="learn_intro_para2_c">•   Use coefficients of products and reactants to balance the number of atoms of an element on both sides of a chemical equation.</string>
+    <string name="learn_intro_para2_d">•   When an equal number of atoms of an element is present on both sides of a chemical equation, the equation is balanced.</string>
+
+    <string name="learn_t1_para1_a">•   A chemical equation is a symbolic representation of a chemical reaction in which the reactants and products are denoted by their respective chemical formulae.</string>
+    <string name="learn_t1_para1_b1">•   An example of a chemical equation is </string>
+    <string name="learn_t1_para1_b2">2H2  + 02  ---->  2 H20 </string>
+    <string name="learn_t1_para1_b3">which describes the reaction between hydrogen and oxygen to form water.</string>
+    <string name="learn_t1_para1_c">•   The reactant side is the part of the chemical equation to the left of the " ----> " symbol whereas the product side is the part to the right of the arrow symbol. </string>
+
+    <string name="learn_t2_para1">•   A stoichiometric coefficient describes the total number of molecules of a chemical species that participate in a chemical reaction.</string>
+    <string name="learn_t2_para2">•   It provides a ratio between the reacting species and the products formed in the reaction.</string>
+    <string name="learn_t2_para3a">•   For eg. CH4  + 202  - C02  + 2H20</string>
+    <string name="learn_t2_para3b">the stoichiometric coefficient of 02 and H20 is 2 whereas that of CH4 and C02 is 1.</string>
+    <string name="learn_t2_para4">•   The total number of atoms of an element present in a species (in a balanced chemical equation) is equal to the product of the stoichiometric coefficient and the number of atoms of the element in one molecule of the species.</string>
+    <string name="learn_t2_para5">•   For example, the total number of oxygen atoms in the reacting species "202" is 4.</string>
+    <string name="learn_t2_para6">•   While balancing chemical equations, stoichiometric coefficients are assigned in a manner that balances the total number of atoms of an element on the reactant and uct side.</string>
+
+    <string name="learn_t3a_1">•   The unbalanced equation must be obtained from the chemical formulae of the reactants and theproducts.</string>
+    <string name="learn_t3a_2">•   The chemical formula of propane is. It burns with oxygen (O2) to form carbon dioxide (CO2) and water (H2O)</string>
+    <string name="learn_t3a_3">The unbalanced chemical equation can be written as</string>
+    <string name="learn_t3a_4">C3H8 + 02 ---->  C02 + H20</string>
+
+    <string-array name="OneToEight">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
 </resources>
